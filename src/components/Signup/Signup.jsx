@@ -5,9 +5,6 @@ import './Signup_css.css';
 import login from './images/login.png';
 
 
-
-
-
 const clientId = "836484638772-fendgimb8ee1put2vma045e99ndbgh5q.apps.googleusercontent.com";
 
 function Signup() {

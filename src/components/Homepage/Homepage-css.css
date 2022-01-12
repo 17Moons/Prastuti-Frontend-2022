@@ -13,10 +13,8 @@
 .Homepage{
   background-image:
   url("./images/homepage_background.png");
-  background-repeat: no-repeat;
   background-size: cover;
-  
-
+ background-repeat: no-repeat;
 }
 
 .link-homepage-text{

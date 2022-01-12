@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import './Signup_css.css';
 
+import login from './images/login.png';
+
+
+
+
 
 const clientId = "836484638772-fendgimb8ee1put2vma045e99ndbgh5q.apps.googleusercontent.com";
 
@@ -28,11 +33,14 @@ function Signup() {
 
     return (
       <div className="login-page">
+
+            <img src={login} alt="Logo" />
+
         <div className="Login-button">
             { showloginButton ?
                 <GoogleLogin
                     clientId={clientId}
-                    buttonText="Sign In"
+                    buttonText="Sign In with Google"
                     onSuccess={onLoginSuccess}
                     onFailure={onLoginFailure}
                     cookiePolicy={'single_host_origin'}

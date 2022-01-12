@@ -8,16 +8,24 @@
 
 
 .login-page{
-    background-image: url(./images/login_bg.svg);
-    background-repeat: no-repeat;
+  background-image: url('./images/login-bac.png')
+}
+
+img{
+    position: absolute;
+    right: 7em;
+   max-width: 25%;
+   height: auto;
+   top: 9em;
 }
 
 .Login-button{
 
 
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 60%;
+
+    left: 72%;
     bottom: 40%;
     height: 2.5em;
     padding-left: 3em;

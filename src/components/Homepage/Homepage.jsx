@@ -17,7 +17,7 @@ function Homepage() {
 
     <div className="content-homepage">
       <h1 className="main-heading-homepage">Prastuti</h1>
-    <h4 className="description">A FEST by the department of Electrical Engineering</h4>
+    <h4 className="description">A fest by the department of Electrical Engineering, IIT BHU</h4>
     <p>(deprecated)</p>
     </div>
 

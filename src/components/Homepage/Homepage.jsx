@@ -18,6 +18,7 @@ function Homepage() {
     <div className="content-homepage">
       <h1 className="main-heading-homepage">Prastuti</h1>
     <h4 className="description">A fest by the department of Electrical Engineering</h4>
+    <p>(deprecated)</p>
     </div>
 
     <div className="Facebook-logo"><a href="https://www.facebook.com/prastuti.IITbhu/" target="_blank"><FaFacebookF/></a></div>

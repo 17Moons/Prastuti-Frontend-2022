@@ -51,11 +51,11 @@ function Homepage() {
 
   return (
 
-    <div className="Homepage">
-   <div className="base-page">
-    <div className="link-homepage-text">
+    <div className="Homepage" id="content">
+   <div className="basepage" id="content">
+    <div className="link-homepage-text" id="content">
       <h3 className="links_homepage sign" id="menu-toggle" onClick={Toggle}>Login</h3>
-      <h3 className="links_homepage about"><Link to="/aboutus" style={{ textDecoration: 'none' ,color: 'inherit' }} >About Us</Link></h3>
+    <h3 className="links_homepage about" id="content"><Link to="/aboutus" style={{ textDecoration: 'none' ,color: 'inherit' }} >About Us</Link></h3>
 
     </div>
 

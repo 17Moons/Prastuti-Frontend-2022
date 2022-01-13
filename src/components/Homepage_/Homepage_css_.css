@@ -6,7 +6,9 @@
 }
 
 
-
+#content {
+    transition: 0.2s ease-in;
+}
 
 /* Homepage */
 .Homepage{
@@ -18,12 +20,18 @@
  background-repeat: no-repeat;
 }
 
+.basepage{
+  display: flex;
+}
+
 .link-homepage-text{
   display: flex;
+  justify-content: flex-start;
   margin-left: 75%;
 
+
   color:white;
-  height: 3.75em;
+  height: 2.75em;
   font-size: 1.5em;
   font-family:sans-serif;
 }
@@ -33,6 +41,7 @@
   right:0%;
   margin-top: 10%;
   margin-right: 2.125em;
+  margin-left: 1em;
 }
 
 
@@ -150,7 +159,7 @@
   }
 
   .shift {
-      margin-left: 400px;
+      margin-right: 400px;
   }
 
   .overlay {
@@ -194,6 +203,12 @@
       width: 500px!important;
       padding: 50px!important;
   }
+
+.about{
+  padding-left: 1em;
+  margin-left: 0;
+}
+
 
 
 @media screen and (orientation:portrait) {

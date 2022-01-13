@@ -5,6 +5,8 @@ import Aboutus from "./components/Aboutus/Aboutus.jsx";
 import Events from "./components/Events/Events";
 import Signup from "./components/Signup/Signup";
 import Sig from "./components/Signup/Signup";
+import Homepae from "./components/Homepage_/Homepage_";
+
 
 
 function App(){
@@ -17,6 +19,9 @@ function App(){
        </Route>
        <Route path="/aboutus">
          <Aboutus />
+       </Route>
+       <Route path="/homepae">
+         <Homepae />
        </Route>
        <Route path="/events">
         <Events />

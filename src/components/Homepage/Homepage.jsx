@@ -64,6 +64,7 @@ function Homepage() {
     <h4 className="description">Now that your eyes are open, make the sun jealous with your burning
 passion to start the day. Make the sun jealous or stay in bed.</h4>
     </div>
+    <Link to="/homepae" style={{ textDecoration: 'none' ,color: 'inherit' }} > Sign Up</Link>
 
   </div>
 

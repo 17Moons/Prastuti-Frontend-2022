@@ -32,7 +32,19 @@ function Signup() {
     return (
      <div className="whole">
 
+      <h1 className="main-headin"> Prastuti '22 </h1>
 
+      <div class="title">
+   <span class="text write" data-splitting="lines">
+     Ere long intelligence—transmitted without <br/>
+     wires—will throb through the earth like a pulse <br/>
+   through a living organism.<br/>
+   </span>
+   <span aria-hidden="true" class="text laser" data-splitting="lines">
+     <br/>
+     Nikola Tesla
+   </span>
+ </div>
 
 
       <div className="login-page">
@@ -62,10 +74,7 @@ function Signup() {
         </div>
       </div>
 
-      <div class="ocean">
- <div class="wave"></div>
- <div class="wave"></div>
-      </div>
+
       </div>
     );
 }

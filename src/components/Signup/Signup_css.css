@@ -7,7 +7,7 @@
 }
 
 .whole{
-  background-image: url('images/homepage_background.png'),url('images/login-bac.png');
+  background-image: url('images/new.png'),url('images/login-bac.png');
     background-repeat: no-repeat, no-repeat;
     background-size: 60% 100%;
     background-position: left top, right top;
@@ -24,6 +24,22 @@ img{
 
 }
 
+.main-headin{
+  text-align: left;
+  position: absolute;
+
+  top: 10%;
+  right:55%;
+
+
+
+  text-align: left;
+  font-size: 4.5em;
+  color:rgb(255, 255, 255);
+  font-family:sans-serif;
+
+}
+
 .Login-button{
 
 
@@ -35,4 +51,34 @@ img{
     height: 2.5em;
     padding-left: 3em;
     padding-right: 3em;
+}
+
+
+.title {
+  position: relative;
+     top: 100%;
+     right: 18%;
+     width: 24em;
+     bottom: 20%;
+     margin: 0 auto;
+     border-right: 2px solid rgb(0, 0, 0);
+     font-size: 180%;
+     text-align: center;
+     white-space: nowrap;
+     overflow: hidden;
+     transform: translateY(-50%);
+
+}
+
+.title{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) ;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgb(0, 0, 0);}
+  to{border-right-color: transparent;}
 }

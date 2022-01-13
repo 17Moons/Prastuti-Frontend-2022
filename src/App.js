@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Aboutus from "./components/Aboutus/Aboutus.jsx";
 import Events from "./components/Events/Events";
 import Signup from "./components/Signup/Signup";
-import Sig from "./components/Signup/Signup";
+import Sig from "./components/Signup_/Signup/Signup_";
 import Homepae from "./components/Homepage_/Homepage_";
 
 
@@ -15,13 +15,13 @@ function App(){
     <Router>
       <Switch>
        <Route exact path="/">
-         <Homepage />
+         <Homepae />
        </Route>
        <Route path="/aboutus">
          <Aboutus />
        </Route>
        <Route path="/homepae">
-         <Homepae />
+         <Homepage />
        </Route>
        <Route path="/events">
         <Events />

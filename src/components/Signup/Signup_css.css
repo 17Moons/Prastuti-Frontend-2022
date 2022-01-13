@@ -6,17 +6,22 @@
 
 }
 
-
-.login-page{
-  background-image: url('./images/login-bac.png')
+.whole{
+  background-image: url('images/homepage_background.png'),url('images/login-bac.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 60% 100%;
+    background-position: left top, right top;
+    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img{
     position: absolute;
     right: 7em;
+    top: 8em;
    max-width: 25%;
    height: auto;
-   top: 9em;
+
 }
 
 .Login-button{

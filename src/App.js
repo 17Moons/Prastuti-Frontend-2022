@@ -2,8 +2,9 @@ import React from "react";
 import Homepage from "./components/Homepage/Homepage";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Aboutus from "./components/Aboutus/Aboutus.jsx";
-import Signup from "./components/Signup/Signup";
 import Events from "./components/Events/Events";
+import Signup from "./components/Signup/Signup";
+import Sig from "./components/Signup/Signup";
 
 
 function App(){
@@ -17,12 +18,12 @@ function App(){
        <Route path="/aboutus">
          <Aboutus />
        </Route>
-       <Route path="/signup">
-         <Signup />
-       </Route>
        <Route path="/events">
         <Events />
       </Route>
+      <Route path="/signup">
+       <Sig />
+     </Route>
       </Switch>
     </Router>
   </div>

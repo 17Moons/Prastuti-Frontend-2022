@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 import './Signup_css.css';
 
+import Sideimg from "./images/homepage_background.png";
 import login from './images/login.png';
 
 
@@ -29,7 +30,13 @@ function Signup() {
     };
 
     return (
+     <div className="whole">
+
+
+
+
       <div className="login-page">
+
 
             <img src={login} alt="Logo" />
 
@@ -53,6 +60,12 @@ function Signup() {
                 </GoogleLogout> : null
             }
         </div>
+      </div>
+
+      <div class="ocean">
+ <div class="wave"></div>
+ <div class="wave"></div>
+      </div>
       </div>
     );
 }

@@ -10,7 +10,7 @@ function Homepage() {
 
     <div className="link-homepage-text">
       <h3 className="links_homepage sign"><Link to="/signup" style={{ textDecoration: 'none' ,color: 'inherit' }}>Sign Up</Link></h3>
-      <h3 className="links_homepage about"><Link to="/aboutus" style={{ textDecoration: 'none' ,color: 'inherit' }}>About Us</Link></h3>
+      <h3 className="links_homepage about"><Link to="/aboutus" style={{ textDecoration: 'none' ,color: 'inherit' }} >About Us</Link></h3>
 
     </div>
 

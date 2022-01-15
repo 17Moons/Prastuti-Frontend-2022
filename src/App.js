@@ -1,11 +1,8 @@
 import React from "react";
-import Homepage from "./components/Homepage/Homepage";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Aboutus from "./components/Aboutus/Aboutus.jsx";
-import Events from "./components/Events/Events";
-import Signup from "./components/Signup/Signup";
-import Sig from "./components/Signup_/Signup/Signup_";
-import Homepae from "./components/Homepage_/Homepage_";
+import Signup from "./components/Signup_/Signup/Signup_";
+import Homepage from "./components/Homepage_/Homepage_";
 
 
 
@@ -15,19 +12,13 @@ function App(){
     <Router>
       <Switch>
        <Route exact path="/">
-         <Homepae />
+         <Homepage />
        </Route>
        <Route path="/aboutus">
          <Aboutus />
        </Route>
-       <Route path="/homepae">
-         <Homepage />
-       </Route>
-       <Route path="/events">
-        <Events />
-      </Route>
       <Route path="/signup">
-       <Sig />
+       <Signup />
      </Route>
       </Switch>
     </Router>

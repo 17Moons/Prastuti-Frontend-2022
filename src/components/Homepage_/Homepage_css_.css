@@ -223,18 +223,67 @@ padding-top: 1.5rem;
 
 @media screen and (max-width: 1092px){
   .Homepage{
-    background: rgb(0, 0, 0);
+    background: rgb(0,0,0);
 
-    background-position: left;
+  }
+  h4.description{
+    display: none;
+  }
+  h1.main-heading-homepage{
+    position:absolute;
+    bottom:150%;
+    left:25%;
+    text-align: center;
+    width:43rem;
+    font-size: 6.4rem;
+    color:azure
+  }
+  div.content-homepage{
+    position:absolute;
+    bottom:30%;
 
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:bottom left;
-    background-size: 100em;
+  }
+  div.basepage{
+    margin:0%;
+    padding: 0%;
+  }
+
+  div#content.link-homepage-text{
+    position: absolute;
+    right:25%;
+    top:44%;
+    margin-right: 0%
+
+  }
+  h3#menu-toggle.links_homepage_sign{
+    transition: 0.1s;
+    text-align: center;
+    width:20rem;
+    height: 5rem;
+
+    font-size: 3.5rem;
+    margin-right: 6rem;
+
+    background-color: cadetblue;
+    border: cadetblue solid 0.3rem;
+
+
+    border-radius: 5%;
+
+
 
 
   }
+
+
+  h3#menu-toggle.links_homepage.sign:hover{
+    background-color: black;
+  }
+
+
+  .visible {
+    width: 100%!important;
+}
 
 
 }

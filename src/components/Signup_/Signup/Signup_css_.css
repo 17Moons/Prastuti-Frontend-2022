@@ -1,34 +1,58 @@
 * {
   margin: 0;
   padding: 0;
-  height:100%;
+  height:50%;
   box-sizing: border-box;
 
+}
+
+.sign_google {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Hooks button */
+.button {
+  cursor: pointer;
+  display: block;
+  font-size: 1.3em;
+  box-sizing: content-box;
+  margin-top: 13rem;
+  margin-right: 2rem;
+  margin-left: 2.8rem;
+  width: 70%;
+  padding: 0px 20px;
+  height:10%;
+  border-radius: 24px;
+  border-color: transparent;
+  background-color: white;
+  box-shadow: 0px 16px 60px rgba(78, 79, 114, 0.08);
+  position: relative;
+}
+
+.buttonText {
+  color: #4285f4;
+  font-weight: bolder;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 0px;
+  position: absolute;
+  left: 30px;
+  align-items: center;
 }
 
 .whole{
 background-color: white;
 }
 
-img{
+.undraw{
     position: absolute;
     right: 2em;
     top: 8em;
    max-width: 80%;
    height: auto;
 
-}
-
-
-.Login-button{
-
-
-    position: absolute;
-    top: 50%;
-
-    left: 20%;
-    bottom: 40%;
-    height: 2.5em;
-    padding-left: 3em;
-    padding-right: 3em;
 }

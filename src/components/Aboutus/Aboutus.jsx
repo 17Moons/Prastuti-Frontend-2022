@@ -17,14 +17,14 @@ function AboutUS(){
         <h1 className='heading'>About Us</h1>
       </div>
 
-        <p className='body'>
+        <p className='content_about_us'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada ornare diam nec aliquam. Duis feugiat nisi quis est dictum, molestie placerat eros vulputate. Sed vitae elementum eros, sodales varius nisi. Morbi eu interdum lorem. Praesent non nibh eleifend, consequat lacus in, pharetra nunc.
         </p>
   </div>
 
         <footer id="footer">
 
-  <Tilt className="Tilt"   options={{ max : 25 }} style={{ scale: 1, }} >
+  <Tilt className="Tilt"   options={{ max : 45 }} style={{ scale: 1, }} >
 
               <a className='facebooklogo' href='https://www.facebook.com/prastuti.iitbhu/'   target="_blank" ><FaFacebookF size={25}/></a>
 

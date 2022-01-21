@@ -1,16 +1,13 @@
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Signup from "../Signup_/Signup/Signup_";
-import React, { useState } from "react";
-
 
 import './Homepage_css_.css';
 
 
 
+
 function Toggle() {
-
-
 
   document.getElementById('menu-toggle').addEventListener('click', (e)=> {
       e.stopPropagation();

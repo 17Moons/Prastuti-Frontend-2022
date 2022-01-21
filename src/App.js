@@ -13,8 +13,6 @@ function App(){
       <Switch>
        <Route exact path="/">
          <Homepage />
-       </Route>
-       <Route path="/aboutus">
          <Aboutus />
        </Route>
       <Route path="/signup">

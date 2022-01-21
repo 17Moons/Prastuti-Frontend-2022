@@ -7,10 +7,7 @@
 }
 
 .whole{
-  background-image:url('images/login-bac.png');
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover;
-
+background-color: white;
 }
 
 img{
@@ -21,7 +18,6 @@ img{
    height: auto;
 
 }
-
 
 
 .Login-button{

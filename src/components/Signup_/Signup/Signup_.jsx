@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
+
+import Tilt from 'react-tilt';
+
 import './Signup_css_.css';
 
-import Sideimg from "./images/homepage_background.png";
+
 import login from './images/login.png';
 
 
@@ -38,6 +41,8 @@ function Signup() {
 
             <img src={login} alt="Logo" />
 
+          <Tilt className="Tilt"  style={{ scale: 1, }} >
+
         <div className="Login-button">
             { showloginButton ?
                 <GoogleLogin
@@ -47,6 +52,7 @@ function Signup() {
                     onFailure={onLoginFailure}
                     cookiePolicy={'single_host_origin'}
                     isSignedIn={true}
+                    
                 /> : null}
 
             { showlogoutButton ?
@@ -58,7 +64,10 @@ function Signup() {
                 </GoogleLogout> : null
             }
         </div>
+      </Tilt>
+
       </div>
+
 
 
       </div>

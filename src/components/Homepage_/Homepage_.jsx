@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import Sig from "../Signup_/Signup/Signup_";
+import Signup from "../Signup_/Signup/Signup_";
 
 import './Homepage_css_.css';
 
@@ -54,8 +54,7 @@ function Homepage() {
     <div className="Homepage" id="content">
    <div className="basepage" id="content">
     <div className="link-homepage-text" id="content">
-      <h3 className="links_homepage sign" id="menu-toggle" onClick={Toggle}>Login</h3>
-    <h3 className="links_homepage about" id="content"><Link to="/aboutus" style={{ textDecoration: 'none' ,color: 'inherit' }} >About Us</Link></h3>
+      <h3 className="links_homepage_sign" id="menu-toggle" onClick={Toggle}>Login</h3>
 
     </div>
 
@@ -71,7 +70,7 @@ passion to start the day. Make the sun jealous or stay in bed.</h4>
           <div id="sidebar-content" class="d-none">
 
               <div class="sidebar-menu">
-                  <Sig />
+                  <Signup />
               </div>
           </div>
       </div>

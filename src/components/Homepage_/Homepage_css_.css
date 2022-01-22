@@ -175,7 +175,7 @@ padding-top: 1.5rem;
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
-  
+
   .Homepage{
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(255,255,255,1) 100%);
@@ -219,8 +219,8 @@ padding-top: 1.5rem;
 
   div#content.link-homepage-text{
     position: absolute;
-    right:25%;
-    top:54%;
+    right:0.5rem;
+    top:4rem;
     margin-right: 0%
 
   }
@@ -247,7 +247,7 @@ padding-top: 1.5rem;
 */
 .links_homepage_sign{
   font-size: 4rem;
-  padding-top: 1.3rem;
+  padding-top: 1.5rem;
   left: 0;
 }
 

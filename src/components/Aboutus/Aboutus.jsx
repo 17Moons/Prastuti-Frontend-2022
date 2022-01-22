@@ -2,7 +2,7 @@ import React from 'react';
 import './Aboutus_css.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Tilt from 'react-tilt';
-
+import FooterImg from './images/logo.svg';
 
 import {FaFacebookF,FaLinkedinIn,FaInstagram} from 'react-icons/fa';
 
@@ -33,7 +33,14 @@ function AboutUS(){
 
           <a className='linkedinlogo' href='https://www.linkedin.com/company/prastuti/'  ><FaLinkedinIn size={36}/></a>
 </Tilt>
-        <h2 className="foot_pras">PRASTUTI</h2>
+      <img src={FooterImg} id="footer_logo" alt="footer_imge"/>
+    <p className="coordinators"><strong>In case of queries, contact undersigned</strong><br />
+
+    Ayush Thakur : +91 93340 73229<br />
+
+  Mohit       : +91 70610 38336 <br />
+<br />
+  </p>
         </footer>
 
 

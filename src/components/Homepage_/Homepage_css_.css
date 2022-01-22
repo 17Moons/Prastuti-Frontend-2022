@@ -38,7 +38,7 @@ padding-top: 1.5rem;
   color:white;
   height: 2.75em;
   font-size: 2.0rem;
-  font-family:sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .links_homepage{
@@ -191,7 +191,7 @@ padding-top: 1.5rem;
   h1.main-heading-homepage{
     position:absolute;
     bottom:150%;
-    left:25%;
+    left:23%;
     text-align: center;
     width:43rem;
     font-size: 6.4rem;
@@ -204,7 +204,7 @@ padding-top: 1.5rem;
       0 0 10px #93FFD8,
       0 0 11px #548CFF,
       0 0 120px #7900FF,
-      0 0 15px rgb(243, 181, 230);
+      0 0 15px rgb(241, 244, 189);
   }
   div.content-homepage{
     position:absolute;

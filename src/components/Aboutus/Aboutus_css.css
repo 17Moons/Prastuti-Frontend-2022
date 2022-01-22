@@ -66,3 +66,41 @@ a{
   color: rgb(255, 28, 28);
 
 }
+
+
+@media screen and (max-width: 1092px) {
+  
+  .content_about_us{
+    height: auto;
+    padding: 22rem  5rem;
+    color: rgb(228, 237, 211);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2;
+    text-align: center;
+  
+  }
+
+
+  h1.heading{
+    
+  font-family: 'Raleway', sans-serif;
+  font-size: 6.5em;
+  width: 100%;
+  text-align: center;
+  padding-top: 3.5rem;
+
+
+  color: #fff;
+  }
+
+  .foot_pras{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    height: auto;
+  }
+
+
+}

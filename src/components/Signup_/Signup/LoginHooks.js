@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { useGoogleLogin } from 'react-google-login';
 import Google_img from './images/google.svg';
 // refresh token
@@ -37,7 +37,7 @@ function LoginHooks() {
   return (
 
     <div>
-    <img src={LoginImage} className="undraw"></img>
+    <img src={LoginImage} className="undraw" alt='undraw' ></img>
     <button onClick={signIn} className="button">
       <img src={Google_img} alt="google login" className="icon"></img>
 

@@ -41,6 +41,7 @@
   margin-right: 0px;
   position: absolute;
   left: 30px;
+  margin-top: 0.30rem;
   align-items: center;
 }
 
@@ -50,9 +51,48 @@ background-color: white;
 
 .undraw{
     position: absolute;
-    right: 2em;
-    top: 8em;
+    right: 2rem;
+    top: 8rem;
    max-width: 80%;
    height: auto;
+
+}
+
+@media  screen and (max-width: 1092px) {
+  .button {
+    cursor: pointer;
+    display: block;
+    font-size: 2rem;
+    box-sizing: content-box;
+    margin-top: 13rem;
+    margin-right: 2rem;
+    width: 100%;
+    padding: 0px 20px;
+    height:10%;
+    border-radius: 24px;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: 0px 16px 60px rgba(78, 79, 114, 0.08);
+    position: relative;
+    bottom: -35%;
+    left: -10%;
+  }
+
+  .icon {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0px;
+    margin-top: 0.4rem;
+    position: absolute;
+    left: 0.9rem;
+    align-items: center;
+  }
+
+  .undraw{
+    position: absolute;
+    width: 100%;
+    right: 6rem;
+    top: 20rem;
+  }
 
 }

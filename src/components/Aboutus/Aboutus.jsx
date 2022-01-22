@@ -26,12 +26,12 @@ function AboutUS(){
 
   <Tilt className="Tilt"   options={{ max : 45 }} style={{ scale: 1, }} >
 
-              <a className='facebooklogo' href='https://www.facebook.com/prastuti.iitbhu/'   target="_blank" ><FaFacebookF size={25}/></a>
+              <a className='facebooklogo' href='https://www.facebook.com/prastuti.iitbhu/'   ><FaFacebookF size={25}/></a>
 
 
-            <a className='instagramlogo' href='https://www.instagram.com/prastuti.iitbhu/?hl=en'   target="_blank" ><FaInstagram size={36}/></a>
+            <a className='instagramlogo' href='https://www.instagram.com/prastuti.iitbhu/?hl=en'   ><FaInstagram size={36}/></a>
 
-          <a className='linkedinlogo' href='https://www.linkedin.com/company/prastuti/'  target="_blank" ><FaLinkedinIn size={36}/></a>
+          <a className='linkedinlogo' href='https://www.linkedin.com/company/prastuti/'  ><FaLinkedinIn size={36}/></a>
 </Tilt>
         <h2 className="foot_pras">PRASTUTI</h2>
         </footer>
